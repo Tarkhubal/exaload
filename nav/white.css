@@ -1,0 +1,156 @@
+red {
+  color: red;
+}
+
+blue {
+  color: blue;
+}
+
+orange {
+  color: orange;
+}
+
+fuchsia {
+  color: #ff00ff;
+}
+
+pink {
+  color: pink;
+}
+.wrapper a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+  color: black;
+  text-decoration: none;
+}
+
+.wrapper h2 {
+  -webkit-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+.nav-img {
+  height: 50px;
+}
+
+.sub-nav h2 {
+  margin-left: 15px;
+  font-family: "open sans", sans-serif;
+  height: 60px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DDDDDD;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  border-radius: 10px;
+  box-shadow: 0 0 0.5em white;
+}
+
+.wrapper h2:hover {
+  color: #00ffff;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper li {
+  cursor: pointer;
+}
+
+/* New Stacking Context with Fixed */
+.side-nav {
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 30;
+}
+
+/* Nav bar */
+
+.wrapper {
+  background: #CCCCCC;
+  height: 630px;
+  width: 75px;
+  border-radius: 10px;
+  margin-top: 7px;
+  box-shadow: 0em 0em 1em white;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Wesh bro*/
+}
+
+.nav-bloc {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  border-radius: 10px;
+}
+.nav-bloc:hover {
+  background: #909090;
+  box-shadow: 0.2em 0.2em 0.1em white;
+}
+
+/* When you hover the nav bar */
+.sub-nav {
+  padding: 0px;
+  width: 60em;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #cccccc;
+  z-index: -1;
+  color: black;
+  /* Hidden at the left side */
+  transform: translateX(-100%);
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  overflow: scroll;
+  border-radius: 10px;
+}
+.nav-bloc:hover .sub-nav {
+  transform: translateX(75px);
+}
+.sub-nav ul {
+  list-style-type: none;
+}
+.sub-nav li {
+  width: 175px;
+  padding: 15px 20px;
+  float: left;
+}
+.sub-nav li:hover {
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  background: rgba(160, 160, 160, 0.555);
+  box-shadow: 0.1em 0.2em 0.1em black;
+  border-radius: 5px;
+}
+.sub-nav li .nav {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.main-content {
+  padding-left: 80px;
+}

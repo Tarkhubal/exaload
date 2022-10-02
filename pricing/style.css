@@ -1,0 +1,159 @@
+* {
+  color: white;
+  font-family: Montserrat;
+}
+
+html {
+  margin: 0;
+  background-color: rgb(44, 48, 50);
+}
+
+li {
+  color: white;
+}
+
+.text-black .mb-3 {
+  color: black;
+}
+
+.pricing {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto 3em;
+}
+
+.pricing__more {
+  max-width: 20px;
+  padding-top: 5px;
+}
+
+.pricing__item {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  text-align: center;
+  -webkit-flex: 0 1 330px;
+  flex: 0 1 330px;
+}
+
+.pricing__feature-list {
+  text-align: left;
+}
+
+.pricing__action {
+  color: inherit;
+  border: none;
+  background: none;
+}
+
+.pricing__action:focus {
+  outline: none;
+}
+
+.pricing__action:hover {
+  cursor: pointer;
+}
+
+.pricing__item {
+  background-color: transparent;
+  -webkit-transition: background 0.3s;
+	transition: background 0.3s;
+}
+.pricing .pricing__item:last-child {
+  margin-right: 0;
+}
+.pricing .pricing__item:first-child {
+  margin-left: 0;
+}
+
+.pricing--sonam .pricing__item {
+	margin: 1em;
+	padding: 2em;
+	cursor: default;
+	border-radius: 10px;
+	background: linear-gradient(to bottom left, #292929, #535353);
+	box-shadow: 0 5px 20px rgba(0,0,0,0.05), 0 15px 30px -10px rgba(0,0,0,0.3);
+	-webkit-transition: background 0.3s;
+	transition: background 0.3s;
+}
+
+.pricing--sonam .pricing__item:hover {
+	background: #141315;
+}
+
+.pricing--sonam .pricing__currency {
+	color: black;
+}
+
+.pricing--sonam .pricing__title {
+	font-size: 2em;
+	width: 100%;
+	margin: 0 0 0.25em;
+	padding: 0 0 0.5em;
+	border-bottom: 3px solid rgb(27, 26, 28);
+}
+
+.pricing--sonam .pricing__price {
+	color: #E06060;
+	font-size: 1.75em;
+	padding: 1em 0 0.75em;
+}
+
+.pricing--sonam .pricing__sentence {
+	font-weight: bold;
+}
+
+.pricing--sonam .pricing__feature-list {
+	margin: 0;
+	padding: 1em 1.25em 2em;
+}
+
+.pricing--sonam .pricing__action {
+	font-weight: bold;
+	margin-top: auto;
+	padding: 0.75em 2em;
+	border-radius: 5px;
+	background: #E06060;
+	-webkit-transition: background 0.3s;
+	transition: background 0.3s;
+}
+
+.pricing--sonam .pricing__action:hover,
+.pricing--sonam .pricing__action:focus {
+	background: #BD3C3C;
+}
+
+.prices {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+.prices-element {
+  width: 175px;
+  height: 100px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.prices-element h4 {
+  border-top: 2px solid white;
+  font-weight: 200;
+}
+
+.prices-element h3 {
+  font-weight: bold;
+}
+
+sup {
+  color: #9898a5;
+}

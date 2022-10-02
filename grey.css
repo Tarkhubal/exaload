@@ -1,0 +1,107 @@
+:root {
+  --font-color: white;
+  --bg-color: #333333;
+}
+
+* {
+  color: var(--font-color);
+  font-family: "Maven Pro";
+}
+
+html {
+  margin: 0;
+  background-color: var(--bg-color);
+}
+
+.multicolor button {
+  background-color: white;
+  color: black;
+}
+
+.multicolor button:hover {
+  background-color: #404040;
+  color: var(--font-color);
+}
+
+.button-user-ready {
+  background-color: blue;
+  color: var(--font-color);
+}
+
+.button-user-ready:hover {
+  background: red;
+  box-shadow: 0em 0em 3.7em red;
+}
+
+@media screen and (min-height: 0px) {
+  #text1,
+  #text2 {
+    color: var(--font-color);
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 0px) {
+  footer h5 * {
+    font-size: 2pt;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #text1,
+  #text2 {
+    color: var(--font-color);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #text1,
+  #text2 {
+    color: var(--font-color);
+  }
+}
+
+html,
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+/* .container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: white;
+}
+.dud {
+  color: #757575;
+} */
+
+/* FAQ */
+
+.container-faq {
+  background-color: rgba(90, 98, 102, 0.7);
+}
+
+.container-faq:hover {
+  box-shadow: 0em 0em 0.9em black;
+}
+
+.h2-faq {
+  color: #4d5cff;
+}
+
+.text-faq a {
+  color: var(--text-link);
+  color: #00b0f4;
+}
+
+.keyboardMode .text-faq a:focus {
+  -webkit-box-shadow: 0 0 0 3px #00b0f4;
+  box-shadow: 0 0 0 3px #00b0f4;
+}

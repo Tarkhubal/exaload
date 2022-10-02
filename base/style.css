@@ -1,0 +1,14 @@
+:root {
+  --font-color: white;
+  --bg-color: #333333;
+}
+
+* {
+  color: var(--font-color);
+  font-family: "Maven Pro";
+}
+
+html {
+  margin: 0;
+  background-color: var(--bg-color);
+}

@@ -1,0 +1,42 @@
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  /* Scrollbars */
+  width: 14px;
+  height: 14px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Barre */
+  border: solid 0 transparent;
+  border-right-width: 4px;
+  -webkit-border-radius: 5px;
+  -webkit-border-top-right-radius: 9px 5px;
+  -webkit-border-bottom-right-radius: 9px 5px;
+  -webkit-box-shadow: inset 0 0 0 1px rgb(79, 79, 79),
+    inset 0 0 0 6px rgb(102, 102, 102);
+}
+
+::-webkit-scrollbar-corner {
+  /* Coin de la fenêtre */
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* Barre */
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  -webkit-box-shadow: inset 0 0 0 1px rgb(90, 90, 90),
+    inset 0 0 0 6px rgb(110, 110, 110);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  /* Barre du bas */
+  border-right-width: 0;
+  border-bottom-width: 4px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px 9px;
+  -webkit-border-bottom-left-radius: 5px 9px;
+}

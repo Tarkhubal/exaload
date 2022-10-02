@@ -1,0 +1,24 @@
+:root {
+  --page-bg: #333333;
+  --font-color: white;
+}
+
+html {
+  margin: 0;
+  background-color: var(--page-bg);
+}
+
+.credits {
+  color: var(--font-color);
+}
+
+h1 {
+  font-family: Roboto;
+  font-size: 30pt;
+}
+
+h2,
+p,
+h3 {
+  font-family: Maven Pro;
+}

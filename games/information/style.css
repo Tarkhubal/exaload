@@ -1,0 +1,351 @@
+:root {
+  --font-color: white;
+  --bg-color: #333333;
+}
+
+* {
+  color: var(--font-color);
+  font-family: "Maven Pro";
+}
+
+html {
+  margin: 0;
+  background-color: var(--bg-color);
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container .box1,
+.container .box2 {
+  float: left;
+  margin-top: 12px;
+}
+
+.box1 {
+  width: 60%;
+}
+
+.release {
+  background-color: #888888;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.column-desc img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0.1px 0.1px 2em black;
+  margin-right: 2%;
+}
+
+.column-infos {
+  background-color: #555555;
+  box-shadow: 0.1px 0.1px 2em black;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.column-infos * {
+  margin-right: 6px;
+}
+
+.box2 {
+  margin-left: 30px;
+  width: 35%;
+}
+
+.game-logo {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-left: -8px;
+}
+
+.infos-list {
+  margin-top: 15px;
+}
+
+.infos {
+  display: flex;
+  margin-top: 0;
+}
+
+.infos-title {
+  margin-top: 5px;
+}
+
+.infos-desc {
+  background-color: #777777;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 0;
+  margin-left: 6px;
+}
+
+.reduction {
+  background-color: red;
+  border-radius: 4px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.price {
+  color: white;
+  text-align: center;
+}
+
+.button-buy,
+.button-cart,
+.button-wishlist {
+  border-radius: 4px;
+  width: 95%;
+  font-size: 13pt;
+  height: 60px;
+  border-color: #333333;
+
+  transition: all 0.2s ease-out 0s;
+  color: white;
+  background-color: #333333;
+}
+
+.button-buy {
+  font-size: 15pt;
+  cursor: pointer;
+}
+
+.button-cart {
+  margin-top: 10px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.button-wishlist {
+  margin-top: 10px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.button-buy:hover,
+.button-cart:hover,
+.button-wishlist:hover {
+  transition: all 0.2s ease-out 0s;
+  background-color: #444444;
+  border-color: #666666;
+}
+
+.description h2 {
+  border-left: 6px solid grey;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.description h3 {
+  border-bottom: 2px solid white;
+}
+
+.description img {
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+red {
+  color: red;
+}
+
+blue {
+  color: blue;
+}
+
+orange {
+  color: orange;
+}
+
+fuchsia {
+  color: #ff00ff;
+}
+
+pink {
+  color: pink;
+}
+
+#game-page {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.social-links {
+  padding-top: 0;
+  width: 100%;
+  margin-left: -8px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a {
+  transition: all 0.4s ease-out 0s;
+  padding-top: 2px;
+}
+
+.social-links a:hover {
+  cursor: pointer;
+  background-color: #888888;
+  border-radius: 100px;
+  box-shadow: 0 0 1em black;
+}
+
+.social-links img {
+  width: 60px;
+  margin: 5px;
+}
+
+.conf-desc {
+  background-color: #777777;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 0;
+  margin-left: 6px;
+}
+
+.conf {
+  display: flex;
+  margin-top: 0;
+}
+
+.conf-title {
+  margin-top: 5px;
+}
+
+.gpu {
+  background-color: #777777;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 0;
+}
+
+.column-infos h4 {
+  border-bottom: 3px solid #999999
+}
+
+
+
+
+:root {
+  --buy-color: white;
+  --buy-border-color: white;
+}
+
+.test * {
+  margin-right: 0;
+}
+
+.test {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--buy-color);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  width: 85%;
+  text-align: center;
+  
+}
+
+.test:hover {
+  background: white;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--buy-color), 0 0 25px var(--buy-color), 0 0 45px var(--buy-color), 0 0 65px var(--buy-color);
+}
+
+.test span {
+  position: absolute;
+  display: block;
+}
+
+.test span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--buy-border-color));
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.test span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, var(--buy-border-color));
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.test span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, var(--buy-border-color));
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.test span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, var(--buy-border-color));
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
