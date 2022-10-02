@@ -1,0 +1,209 @@
+.games-table {
+  color: white;
+  font-family: "Maven Pro";
+  transition: all 0.25s ease-out;
+}
+
+body {
+  background-color: #333333;
+  position: absolute;
+  inset: 0;
+}
+
+.games-table h2 {
+  font-size: 30pt;
+  color: white;
+  text-decoration: underline;
+}
+
+.reduction {
+  background-color: red;
+  border-radius: 4px;
+  margin-right: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.title h2 {
+  font-size: 70pt;
+  font-family: Raleway;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.product-carousel-header {
+  background: #4a4a4a;
+  color: #ffffff;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 14px;
+  width: 100%;
+}
+.product-carousel {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 40px;
+  width: 100%;
+}
+.product-carousel .product {
+  box-sizing: border-box;
+  margin: 0 10px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-content: space-between;
+}
+.product-carousel .product-top {
+  width: 100%;
+}
+.product-carousel p,
+.product-carousel .product-image,
+.product-carousel img.review-stars {
+  margin: 0 0 10px 0;
+}
+.product-carousel .product-image {
+  align-self: flex-start;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 0.6em black;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+img.review-stars {
+  width: 100px;
+  display: inline-block;
+}
+.product-carousel .product-name {
+  font-weight: bold;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  width: 100%;
+  color: white;
+}
+.product-carousel .product-bottom {
+  margin-top: auto;
+  align-items: flex-end;
+}
+.product-carousel .product-prices {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 0 100%;
+  align-self: center;
+  color: white;
+}
+.product-carousel .product-prices span {
+  width: 100%;
+  color: white;
+}
+
+.price {
+  color: white;
+}
+
+.product-carousel button.shop-now {
+  border: none;
+  background-image: none;
+  background-color: #4a4a4a;
+  color: #ffffff;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  font-size: 16px;
+  padding: 8px 10px;
+  align-self: center;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  margin-bottom: 1em;
+}
+
+.product-carousel button.shop-now:hover {
+  background-color: #666666;
+  cursor: pointer;
+  box-shadow: 0 0 1em black;
+}
+/** ARROWS **/
+i {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 12px;
+  position: absolute;
+  top: calc(50% - 12px/2);
+  cursor: pointer;
+}
+.right {
+  right: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left {
+  left: 20px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+/** SLICK SLIDER CSS **/
+/* Slider */
+.slick-slider {
+  position: relative;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+.slick-track {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}

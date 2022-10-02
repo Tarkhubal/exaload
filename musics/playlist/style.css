@@ -1,0 +1,379 @@
+/* =======================================
+	Imports
+======================================= */
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/* =======================================
+	Variables
+======================================= */
+/* =======================================
+	Extensions
+======================================= */
+.row .col:after, .row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* =======================================
+	Styles
+======================================= */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+  padding-bottom: 101px;
+}
+
+.songs-wrapper {
+  min-height: 100vh;
+  background-color: black;
+}
+.songs-wrapper .song {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+  transition: all 0.2s ease-in;
+}
+.songs-wrapper .song .song-image {
+  width: 100%;
+  padding: 50% 0;
+  display: block;
+  background-size: cover;
+  background-position: center;
+}
+.songs-wrapper .song .song-info {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  color: white;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  text-shadow: 0 1px 3px black;
+  transition: opacity 0.2s ease-in;
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%);
+}
+.songs-wrapper .song .song-info .song-title {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.songs-wrapper .song:hover {
+  cursor: pointer;
+}
+.songs-wrapper .song:hover .song-info {
+  opacity: 1;
+}
+.songs-wrapper .song.active {
+  border: solid 3px white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.row .col {
+  flex: 1;
+  margin-left: 0;
+  position: relative;
+  transition: all 0.2s ease-in;
+}
+.row .col.s1 {
+  flex: 0 0 calc(100% * (1/12));
+  max-width: calc(100% * (1/12));
+}
+.row .col.s2 {
+  flex: 0 0 calc(100% * (2/12));
+  max-width: calc(100% * (2/12));
+}
+.row .col.s3 {
+  flex: 0 0 calc(100% * (3/12));
+  max-width: calc(100% * (3/12));
+}
+.row .col.s4 {
+  flex: 0 0 calc(100% * (4/12));
+  max-width: calc(100% * (4/12));
+}
+.row .col.s5 {
+  flex: 0 0 calc(100% * (5/12));
+  max-width: calc(100% * (5/12));
+}
+.row .col.s6 {
+  flex: 0 0 calc(100% * (6/12));
+  max-width: calc(100% * (6/12));
+}
+.row .col.s7 {
+  flex: 0 0 calc(100% * (7/12));
+  max-width: calc(100% * (7/12));
+}
+.row .col.s8 {
+  flex: 0 0 calc(100% * (8/12));
+  max-width: calc(100% * (8/12));
+}
+.row .col.s9 {
+  flex: 0 0 calc(100% * (9/12));
+  max-width: calc(100% * (9/12));
+}
+.row .col.s10 {
+  flex: 0 0 calc(100% * (10/12));
+  max-width: calc(100% * (10/12));
+}
+.row .col.s11 {
+  flex: 0 0 calc(100% * (11/12));
+  max-width: calc(100% * (11/12));
+}
+.row .col.s12 {
+  flex: 0 0 calc(100% * (12/12));
+  max-width: calc(100% * (12/12));
+}
+@media (min-width: 601px) {
+  .row .col.m1 {
+    flex: 0 0 calc(100% * (1/12));
+    max-width: calc(100% * (1/12));
+  }
+  .row .col.m2 {
+    flex: 0 0 calc(100% * (2/12));
+    max-width: calc(100% * (2/12));
+  }
+  .row .col.m3 {
+    flex: 0 0 calc(100% * (3/12));
+    max-width: calc(100% * (3/12));
+  }
+  .row .col.m4 {
+    flex: 0 0 calc(100% * (4/12));
+    max-width: calc(100% * (4/12));
+  }
+  .row .col.m5 {
+    flex: 0 0 calc(100% * (5/12));
+    max-width: calc(100% * (5/12));
+  }
+  .row .col.m6 {
+    flex: 0 0 calc(100% * (6/12));
+    max-width: calc(100% * (6/12));
+  }
+  .row .col.m7 {
+    flex: 0 0 calc(100% * (7/12));
+    max-width: calc(100% * (7/12));
+  }
+  .row .col.m8 {
+    flex: 0 0 calc(100% * (8/12));
+    max-width: calc(100% * (8/12));
+  }
+  .row .col.m9 {
+    flex: 0 0 calc(100% * (9/12));
+    max-width: calc(100% * (9/12));
+  }
+  .row .col.m10 {
+    flex: 0 0 calc(100% * (10/12));
+    max-width: calc(100% * (10/12));
+  }
+  .row .col.m11 {
+    flex: 0 0 calc(100% * (11/12));
+    max-width: calc(100% * (11/12));
+  }
+  .row .col.m12 {
+    flex: 0 0 calc(100% * (12/12));
+    max-width: calc(100% * (12/12));
+  }
+}
+@media (min-width: 993px) {
+  .row .col.l1 {
+    flex: 0 0 calc(100% * (1/12));
+    max-width: calc(100% * (1/12));
+  }
+  .row .col.l2 {
+    flex: 0 0 calc(100% * (2/12));
+    max-width: calc(100% * (2/12));
+  }
+  .row .col.l3 {
+    flex: 0 0 calc(100% * (3/12));
+    max-width: calc(100% * (3/12));
+  }
+  .row .col.l4 {
+    flex: 0 0 calc(100% * (4/12));
+    max-width: calc(100% * (4/12));
+  }
+  .row .col.l5 {
+    flex: 0 0 calc(100% * (5/12));
+    max-width: calc(100% * (5/12));
+  }
+  .row .col.l6 {
+    flex: 0 0 calc(100% * (6/12));
+    max-width: calc(100% * (6/12));
+  }
+  .row .col.l7 {
+    flex: 0 0 calc(100% * (7/12));
+    max-width: calc(100% * (7/12));
+  }
+  .row .col.l8 {
+    flex: 0 0 calc(100% * (8/12));
+    max-width: calc(100% * (8/12));
+  }
+  .row .col.l9 {
+    flex: 0 0 calc(100% * (9/12));
+    max-width: calc(100% * (9/12));
+  }
+  .row .col.l10 {
+    flex: 0 0 calc(100% * (10/12));
+    max-width: calc(100% * (10/12));
+  }
+  .row .col.l11 {
+    flex: 0 0 calc(100% * (11/12));
+    max-width: calc(100% * (11/12));
+  }
+  .row .col.l12 {
+    flex: 0 0 calc(100% * (12/12));
+    max-width: calc(100% * (12/12));
+  }
+}
+@media (min-width: 1301px) {
+  .row .col.x1 {
+    flex: 0 0 calc(100% * (1/12));
+    max-width: calc(100% * (1/12));
+  }
+  .row .col.x2 {
+    flex: 0 0 calc(100% * (2/12));
+    max-width: calc(100% * (2/12));
+  }
+  .row .col.x3 {
+    flex: 0 0 calc(100% * (3/12));
+    max-width: calc(100% * (3/12));
+  }
+  .row .col.x4 {
+    flex: 0 0 calc(100% * (4/12));
+    max-width: calc(100% * (4/12));
+  }
+  .row .col.x5 {
+    flex: 0 0 calc(100% * (5/12));
+    max-width: calc(100% * (5/12));
+  }
+  .row .col.x6 {
+    flex: 0 0 calc(100% * (6/12));
+    max-width: calc(100% * (6/12));
+  }
+  .row .col.x7 {
+    flex: 0 0 calc(100% * (7/12));
+    max-width: calc(100% * (7/12));
+  }
+  .row .col.x8 {
+    flex: 0 0 calc(100% * (8/12));
+    max-width: calc(100% * (8/12));
+  }
+  .row .col.x9 {
+    flex: 0 0 calc(100% * (9/12));
+    max-width: calc(100% * (9/12));
+  }
+  .row .col.x10 {
+    flex: 0 0 calc(100% * (10/12));
+    max-width: calc(100% * (10/12));
+  }
+  .row .col.x11 {
+    flex: 0 0 calc(100% * (11/12));
+    max-width: calc(100% * (11/12));
+  }
+  .row .col.x12 {
+    flex: 0 0 calc(100% * (12/12));
+    max-width: calc(100% * (12/12));
+  }
+}
+
+.music-player {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  box-shadow: 0 7px 18px rgba(0, 0, 0, 0.2), 0 7px 36px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.music-player .progress-wrapper {
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.music-player .progress-wrapper .progress-bar {
+  width: 0;
+  height: 3px;
+  background-color: white;
+  animation: play 60s linear 1s infinite;
+}
+.music-player .times-row {
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 10px;
+  pointer-events: none;
+  justify-content: space-between;
+}
+.music-player .times-row .current-song {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+.music-player .player-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.music-player .player-actions .action-button {
+  width: 30px;
+  height: 30px;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 0 10px;
+  line-height: 0;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in;
+}
+.music-player .player-actions .action-button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.play-button {
+  width: 50px;
+  height: 50px;
+  color: white;
+  outline: none;
+  line-height: 0;
+  border-radius: 50%;
+  border: solid 1px white;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in;
+}
+.play-button i {
+  font-size: 32px;
+  transition: transform 0.2s ease-in;
+}
+.play-button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.play-button:active i {
+  transform: scale(1.3);
+}
+
+@keyframes play {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

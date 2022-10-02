@@ -1,0 +1,32 @@
+:root {
+  --font-color: white;
+  --bg-color: #333333;
+}
+
+* {
+  color: var(--font-color);
+  font-family: "Maven Pro";
+}
+
+html {
+  margin: 0;
+  background-color: var(--bg-color);
+}
+
+.terms-page {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.terms-page .terms-menu {
+  width: 400px;
+  padding: 15px;
+}
+.terms-page .terms-desc {
+  width: 100%;
+  padding: 15px;
+}

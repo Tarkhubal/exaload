@@ -1,0 +1,110 @@
+:root {
+  --interactive-color: cyan;
+  --product-text-color: white;
+  --titles-color: white;
+  --product-background: #555555;
+}
+
+html {
+  margin: 0;
+  background-color: #333333;
+  font-family: Ubuntu;
+}
+
+a {
+  color: var(--interactive-color);
+}
+.page-title {
+  font-size: 164%;
+  font-weight: bold;
+  color: var(--titles-color);
+}
+.product {
+  background-color: var(--product-background);
+  border-radius: 5px;
+  color: var(--product-text-color);
+  margin-top: 16px;
+  overflow: auto;
+  padding: 2px;
+  max-width: 1020px;
+}
+.product .title {
+  float: left;
+  font-size: 110%;
+  font-weight: bold;
+  margin: 3px;
+  color: var(--titles-color)
+}
+.product .homepage {
+  color: var(--interactive-color);
+  float: right;
+  margin: 3px;
+  text-align: end;
+}
+.product .homepage::before {
+  content: " - ";
+}
+.product .show {
+  color: var(--interactive-color);
+  float: right;
+  margin: 3px;
+  text-align: end;
+  text-decoration: underline;
+}
+.licence {
+  border-radius: 3px;
+  clear: both;
+  display: none;
+  padding: 16px;
+}
+.licence h3 {
+  margin-top: 0;
+}
+.licence pre {
+  white-space: pre-wrap;
+}
+.dialog #print-link,
+.dialog .homepage {
+  display: none;
+}
+input + label + div {
+  display: none;
+  color: white;
+}
+input + label::after {
+  content: "Show license";
+  cursor: pointer;
+  border-radius: 7px;
+}
+input:checked + label + div {
+  display: block;
+}
+input:checked + label::after {
+  content: "Hide license";
+  cursor: pointer;
+}
+
+@media print {
+  .licence {
+    display: block;
+  }
+  .product,
+  a,
+  body {
+    color: black;
+  }
+  .product {
+    background-color: #555555;
+  }
+  pre {
+    color: black;
+  }
+  a {
+    text-decoration: none;
+  }
+  .show,
+  .product .homepage::before,
+  #print-link {
+    display: none;
+  }
+}
