@@ -49,8 +49,8 @@ CSS Variables
   );
   --dLGradient: linear-gradient(
     -120deg,
-    #4524e8 0%,
-    rgba(71, 155, 190, 0.8) 99.87%
+    red 0%,
+    #ffff00 99.87%
   );
   --blackGradient: linear-gradient(
     152deg,
@@ -155,11 +155,9 @@ header ul {
   position: absolute;
   right: 8%;
   border-radius: 10px;
-
   z-index: 1;
   margin: 0 -0.3em;
   width: fit-content;
-
   box-shadow: 5px 3px 8.37px rgba(69, 36, 232, 0.5);
   background: var(--white);
 }
@@ -256,7 +254,7 @@ a.button {
 }
 
 a.button:hover {
-  background: var(--primary);
+  background: red;
   color: var(--black);
   border-color: transparent;
 }

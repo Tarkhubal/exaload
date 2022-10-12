@@ -1,0 +1,34 @@
+:root {
+  --font-color: white;
+  --bg-color: #333333;
+}
+
+* {
+  color: var(--font-color);
+  font-family: "Maven Pro";
+}
+
+html {
+  margin: 0;
+  background-color: var(--bg-color);
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+.presentation-element {
+  padding: 10px;
+}
+
+.presentation-element img {
+  max-width: 300px;
+  border-radius: 15px;
+  box-shadow: 1em 1em 1em black;
+}
+
+.presentation-element p {
+  max-width: 400px;
+}
