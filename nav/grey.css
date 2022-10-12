@@ -395,12 +395,10 @@ footer main {
   align-items: center;
   justify-content: center;
   font: 10em "Oswald", sans-serif;
-  color: #9b9b9b;
   line-height: 1;
 }
 
 footer {
-  background: #333333;
   margin-top: auto;
   width: 100%;
 }
@@ -452,8 +450,6 @@ footer {
 .footer-social-connect {
   display: flex;
   align-items: center;
-  font: 3.5em "Oswald", sans-serif;
-  color: #fff;
 }
 
 .footer-social-small {
@@ -482,7 +478,6 @@ footer {
 
 .footer-bottom-wrapper {
   font-size: 1.5em;
-  color: #fff;
 }
 
 .footer-address {

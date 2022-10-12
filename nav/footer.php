@@ -27,7 +27,7 @@
       <h4 class="footer-list-header">Nous contacter</h4></li>
     <li><a href='mailto:exaload.web@gmail.com?cc=thb5309@gmail.com&subject=&body=Merci de ne pas toucher à cette partie et d&#039écrire au dessus de ce message :3 | email from website' class="generic-anchor footer-list-anchor" itemprop="significantLink">Contact</a></li>
     <li><a href='/faq.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
-    <li id='find-a-store'><a href='/shop/store-locator' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
+    <li id='find-a-store'><a href='/shop/store-locator' class="generic-anchor footer-list-anchor" itemprop="significantLink">Le fonctionnement</a></li>
     <li id='order-tracking'><a href='/shop/order-status' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
   </ul>
   
@@ -35,7 +35,7 @@
   <section class="footer-bottom-section flex-rw">
   <div class="footer-bottom-wrapper">&copy; 2022 Exaload, a Thomas BLANC's project - All Rights Reserved</div>
   <div class="footer-bottom-wrapper">
-    <a href="//exaload.glitch.me/political-things/terms" class="generic-anchor" rel="nofollow">Termes d'utilisation</a> | <a href="//exaload.glitch.me/political-things/licenses" class="generic-anchor" rel="nofollow">Licences</a>
+    <a href="//exaload.glitch.me/political-things/terms" class="generic-anchor" rel="nofollow">Mentions légales</a> | <a href="//exaload.glitch.me/political-things/licenses" class="generic-anchor" rel="nofollow">Licences</a>
   </div>
   </section>
 </footer>
