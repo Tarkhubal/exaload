@@ -79,7 +79,6 @@ a {
 .welcome-img img {
   max-width: 120px;
   border-radius: 100%;
-  box-shadow: -0.6em 0.6em 1em black;
   position: relative;
   background: linear-gradient(to right, red, purple);
   padding: 3px;
