@@ -78,13 +78,13 @@
             </div>
         </div>
         <div id="nav-button-musics" class="nav-bloc n-6">
-            <img class="nav-img" onclick="window.location.href='https://exaload.glitch.me/uc/'" src="https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/2402461-origin.png?v=1662620104497">
+            <img class="nav-img" onclick="window.location.href='https://exaload.glitch.me/musics'" src="https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/2402461-origin.png?v=1662620104497">
             <div class="sub-nav">
-                <a class="nav" href="https://exaload.glitch.me/uc/">
+                <a class="nav" href="https://exaload.glitch.me/musics">
                     <h2>Musiques</h2>
                 </a>
                 <ul>
-                    <a class="nav" href="https://exaload.glitch.me/uc/">
+                    <a class="nav" href="https://exaload.glitch.me/musics">
                         <li>[element]</li>
                     </a>
                 </ul>

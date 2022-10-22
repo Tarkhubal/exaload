@@ -1,41 +1,55 @@
-<footer class="flex-rw exaload-nav">
-  
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">À propos de nous</h4></li>
-    <li><a href='/how-it-works' class="generic-anchor footer-list-anchor" itemprop="significantLink">QUI SOMMES-NOUS</a></li>
-    <li><a href='/promos.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">Promos</a></li>
-    <li><a href='/job-openings.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">NOUS RECRUTONS</a></li>
-    <li><a href='/shop/about-show-schedule' class="generic-anchor footer-list-anchor" itemprop="significantLink">ÉVÈNEMENTS</a></li>
-  </ul>
-  
-  
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">The Gift Selection</h4></li>
-
-
-    <li><a href='/Angels/cat/id/70' class="generic-anchor footer-list-anchor">ANGEL FIGURINES</a></li>
-    <li><a href='/Home-Decor/cat/id/64' class="generic-anchor footer-list-anchor">HOME DECOR</a></li>
-    <li><a href='/Mugs/cat/id/32' class="generic-anchor footer-list-anchor">MUGS</a></li>
-    <li><a href='/Ladies-Accessories/cat/id/117' class="generic-anchor footer-list-anchor" target="_blank">HANDBAGS & JEWELRY</a></li>
-  </ul>
-  
-  
-  <ul class="footer-list-top">
-    <li id='help'>
-      <h4 class="footer-list-header">Nous contacter</h4></li>
-    <li><a href='mailto:exaload.web@gmail.com?cc=thb5309@gmail.com&subject=&body=Merci de ne pas toucher à cette partie et d&#039écrire au dessus de ce message :3 | email from website' class="generic-anchor footer-list-anchor" itemprop="significantLink">Contact</a></li>
-    <li><a href='/faq.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
-    <li id='find-a-store'><a href='/shop/store-locator' class="generic-anchor footer-list-anchor" itemprop="significantLink">Le fonctionnement</a></li>
-    <li id='order-tracking'><a href='/shop/order-status' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
-  </ul>
-  
-  
-  <section class="footer-bottom-section flex-rw">
-  <div class="footer-bottom-wrapper">&copy; 2022 Exaload, a Thomas BLANC's project - All Rights Reserved</div>
-  <div class="footer-bottom-wrapper">
-    <a href="//exaload.glitch.me/political-things/terms" class="generic-anchor" rel="nofollow">Mentions légales</a> | <a href="//exaload.glitch.me/political-things/licenses" class="generic-anchor" rel="nofollow">Licences</a>
-  </div>
-  </section>
-</footer>
+<footer class="footer-20192">
+        <div class="site-section">
+            <div class="container">
+                <div class="cta d-block d-md-flex align-items-center px-5">
+                    <div>
+                        <h2 class="mb-0">Ready for a next project?</h2>
+                        <h3 class="text-dark">Let's get started!</h3>
+                    </div>
+                    <div class="ml-auto">
+                        <a href="#" class="btn btn-dark rounded-0">Contact us</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="#" class="footer-logo">Exaload</a>
+                        <p class="copyright">
+                            <small>&copy; 2022</small>
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Customers</h3>
+                        <ul class="list-unstyled links">
+                            <li><a href="#">Buyer</a></li>
+                            <li><a href="#">Supplier</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Company</h3>
+                        <ul class="list-unstyled links">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Further Information</h3>
+                        <ul class="list-unstyled links">
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Follow us</h3>
+                        <ul class="list-unstyled social">
+                            <li><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                            <li><a href="#"><span class="icon-medium"></span></a></li>
+                            <li><a href="#"><span class="icon-paper-plane"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
