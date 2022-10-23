@@ -144,6 +144,11 @@ footer .col-sm {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  border-radius: 10px;
+}
+
+footer .col-sm:hover {
+  border: 2px solid white;
 }
 
 @media (min-width: 576px) {
@@ -223,7 +228,7 @@ footer a.text-dark:hover {
 }
 
 .footer-20192 .links li a {
-  color: #666873;
+  color: white;
 }
 
 .footer-20192 .links li a:hover {
