@@ -1,0 +1,117 @@
+:root {
+  --font-color: white;
+  --bg-color: #333333;
+}
+
+* {
+  color: var(--font-color);
+  font-family: "Maven Pro";
+}
+
+html {
+  margin: 0;
+  background-color: var(--bg-color);
+}
+
+.musics-page {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.musics-page .musics-menu {
+  width: 228px;
+  padding-left: 15px;
+  background-color: #222222;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  height: 37.5vh;
+  position: fixed;
+}
+
+.musics-page .musics-menu div {
+  position: fixed;
+}
+
+.musics-page .musics-menu h1 {
+  font-size: 16pt;
+  padding: 15px 20px 15px 15px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+}
+
+.musics-page .musics-content {
+  width: 100%;
+  padding: 15px;
+  margin-left: 235px;
+}
+
+h1 {
+  font-size: 16pt;
+  padding: 0 0 0 15px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+}
+
+a {
+  cursor: pointer;
+}
+
+.musics-page .musics-menu h1:hover {
+  background: #555555;
+}
+
+.welcome,
+.foryou {
+  display: flex;
+  font-family: Montserrat;
+}
+
+.welcome-img img {
+  max-width: 120px;
+  border-radius: 100%;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+}
+
+.welcome-elements p {
+  max-width: 400px;
+}
+
+.welcome-formula {
+  font-size: 30pt;
+}
+
+.foryou-elements {
+  height: 300px;
+  width: 200px;
+  background-color: #555555;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.foryou-elements .poster {
+  width: 100%;
+  height: 63%;
+}
+
+.foryou-elements .poster img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.playlist-desc .title {
+  font-size: 15pt;
+}

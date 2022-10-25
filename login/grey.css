@@ -6,7 +6,26 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: linear-gradient(#141e30, #243b55);
+  background-color: #333333;
+}
+
+.main-content:before {
+  height: 90vh;
+  opacity: 0.4;
+  width: 70vw;
+  background-image: linear-gradient(286deg,red 25.99%,#e47aff 64.62%,rgb(109 19 255/60%) 80.2%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 100%;
+  content: "";
+  filter: blur(100px);
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  z-index: -1000;
 }
 
 .login-box {
@@ -62,10 +81,6 @@ body {
   color: red;
   font-size: 12px;
 }
-
-
-
-
 
 .login-box form a {
   position: relative;

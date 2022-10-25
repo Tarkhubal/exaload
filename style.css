@@ -6,6 +6,10 @@
   --num-grid-columns: 4;
 }
 
+html {
+  margin: 0;
+}
+
 .user-ready,
 .button-user-ready {
   margin-top: 120px;
