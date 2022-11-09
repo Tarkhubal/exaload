@@ -3,11 +3,11 @@
             <div class="container">
                 <div class="cta d-block d-md-flex align-items-center px-5">
                     <div>
-                        <h2 class="mb-0">Ready for a next project?</h2>
-                        <h3 class="text-dark">Let's get started!</h3>
+                        <h2 class="mb-0">Vous avez créé quelque chose ?</h2>
+                        <h3 class="text-dark">Partagez le facilement !</h3>
                     </div>
                     <div class="ml-auto">
-                        <a href="#" class="btn btn-dark rounded-0">Contact us</a>
+                        <a href="#" class="btn btn-dark rounded-0">Commencer à uploader</a>
                     </div>
                 </div>
                 <div class="row">
@@ -18,29 +18,24 @@
                         </p>
                     </div>
                     <div class="col-sm">
-                        <h3>Customers</h3>
+                        <h3>Entreprise</h3>
                         <ul class="list-unstyled links">
-                            <li><a href="#">Buyer</a></li>
-                            <li><a href="#">Supplier</a></li>
+                            <li><a href="#">À propos</a></li>
+                            <li><a href="#">Notre mission</a></li>
+                            <li><a href="#">Notre équipe</a></li>
+                            <li><a href="#">Charte graphique</a></li>
                         </ul>
                     </div>
                     <div class="col-sm">
-                        <h3>Company</h3>
+                        <h3>Informations légales</h3>
                         <ul class="list-unstyled links">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm">
-                        <h3>Further Information</h3>
-                        <ul class="list-unstyled links">
-                            <li><a href="#">Terms &amp; Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Mentions légales</a></li>
+                            <li><a href="#">Conditions d'utilisation</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <h3>Follow us</h3>
+                        <h3>Nous suivre</h3>
                         <ul class="list-unstyled social">
                             <li><a href="#"><span class="icon-facebook"></span></a></li>
                             <li><a href="#"><span class="icon-twitter"></span></a></li>

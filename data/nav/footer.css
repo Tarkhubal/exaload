@@ -147,8 +147,8 @@ footer .col-sm {
   border-radius: 10px;
 }
 
-footer .col-sm:hover {
-  border: 2px solid white;
+footer .col-sm h3 {
+  border-bottom: 2px dotted white
 }
 
 @media (min-width: 576px) {
@@ -273,10 +273,9 @@ footer a.text-dark:hover {
 }
 
 .footer-20192 .cta {
-  -webkit-box-shadow: -20px -20px 0 0 rgba(255, 0, 0, 0.2);
-  box-shadow: -20px -20px 0 0 rgba(255, 0, 0, 0.2);
+  box-shadow: -20px -20px 0 0 rgba(255, 255, 255, 0.2);
   padding: 20px;
-  background-color: #8186d5;
+  background-color: rgb(70, 70, 210);
   top: -50px;
   position: relative;
 }
@@ -375,4 +374,8 @@ footer .btn-dark:not(:disabled):not(.disabled).active:focus,
 footer .btn-dark:not(:disabled):not(.disabled):active:focus,
 footer .show > .btn-dark.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
+.icon-facebook {
+  background: url(https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/3787587.png?v=1650614140515)
 }
