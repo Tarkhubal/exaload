@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr" class="exaload-nav">
-
-  <a href="//exaload.glitch.me/login">
+<a href="//exaload.glitch.me/login">
     <div class="login-button" align="center" title="Connexion">
-      <img class="login-button-img" width="55" src="https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/1828391-origin.png?v=1662620429286">
+        <img class="login-button-img" width="55" src="https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/1828391-origin.png?v=1662620429286">
     </div>
-  </a>
-  
-  <nav class="side-nav">
+</a>
+
+<nav class="side-nav">
     <div class="wrapper">
         <div id="nav-button-menu" class="nav-bloc n-1">
             <img class="nav-img" onclick="window.location.href='https://exaload.glitch.me'" src="https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/Light%20mode.png?v=1656070041573" style="border-radius: 12px;">
@@ -54,7 +51,7 @@
             <img class="nav-img" onclick="window.location.href='https://exaload.glitch.me/movies'" src="https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/1179120-origin.png?v=1662620104219">
             <div class="sub-nav">
                 <a class="nav" href="https://exaload.glitch.me/movies">
-                  <h2>Films</h2>
+                    <h2>Films</h2>
                 </a>
                 <ul>
                     <a class="nav" href="https://exaload.glitch.me/uc/">
@@ -104,11 +101,9 @@
             </div>
         </div>
     </div>
-  </nav>
-  <a href="//exaload.glitch.me/settings">
+</nav>
+<a href="//exaload.glitch.me/settings">
     <div class="settings-button" align="center" title="Paramètres">
-      <img class="settings-button-img" width="55" src="https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/parametres-cog-origin.png?v=1662620104055">
+        <img class="settings-button-img" width="55" src="https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/parametres-cog-origin.png?v=1662620104055">
     </div>
-  </a>
-  
-</html>
+</a>

@@ -74,34 +74,34 @@ body {
     padding-bottom: 1rem !important;
 }
 
-a {
+.container a {
     cursor: pointer;
     transition: all 200ms linear;
 }
 
-a:hover {
+.container a:hover {
     text-decoration: none;
 }
 
-.link {
+.container .link {
     color: #c4c3ca;
 }
 
-.link:hover {
+.container .link:hover {
     color: #ffeba7;
 }
 
-p {
+.container p {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
 }
 
-h4 {
+.container h4 {
     font-weight: 600;
 }
 
-h6 span {
+.container h6 span {
     padding: 0 20px;
     text-transform: uppercase;
     font-weight: 700;
