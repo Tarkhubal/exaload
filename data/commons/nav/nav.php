@@ -44,11 +44,11 @@
                     <div class="card" onclick="window.location.href='https://exaload.glitch.me'">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -60,11 +60,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -76,11 +76,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -92,11 +92,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -108,11 +108,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -124,11 +124,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -150,11 +150,11 @@
                     <div class="card" onclick="window.location.href='https://exaload.glitch.me'">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -166,11 +166,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -182,11 +182,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -198,11 +198,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -214,11 +214,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -230,11 +230,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -257,11 +257,11 @@
                     <div class="card" onclick="window.location.href='https://exaload.glitch.me'">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -273,11 +273,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -289,11 +289,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -305,11 +305,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -321,11 +321,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -337,11 +337,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -363,11 +363,11 @@
                     <div class="card" onclick="window.location.href='https://exaload.glitch.me'">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -379,11 +379,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -395,11 +395,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -411,11 +411,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -427,11 +427,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -443,11 +443,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -469,11 +469,11 @@
                     <div class="card" onclick="window.location.href='https://exaload.glitch.me'">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -485,11 +485,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -501,11 +501,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -517,11 +517,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -533,11 +533,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
@@ -549,11 +549,11 @@
                     <div class="card">
                         <div class="card-content">
                             <div class="card-image">
-                                <img src="./assets/no-img-available.jpg" alt="...">
+                                <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                             </div>
                             <div class="card-info-wrapper">
                                 <div class="card-info">
-                                    <img src="./assets/no-img-available.jpg" alt="...">
+                                    <img src="https://exaload.glitch.me/data/assets/no-img-available.jpg" alt="...">
                                     <div class="card-info-title">
                                         <h3>Un titre</h3>
                                         <h4>Une description</h4>
