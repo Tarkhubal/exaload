@@ -572,3 +572,5 @@
         <img class="settings-button-img" width="55" src="https://cdn.glitch.global/1f61965e-15d8-4de3-8f2d-15723c6634d9/parametres-cog-origin.png?v=1662620104055">
     </div>
 </a>
+
+<script src="https://exaload.glitch.me/data/commons/nav/script.js"></script>
