@@ -1,0 +1,18 @@
+   1.  https://codepen.io/ig_design/pen/KKVQpVP ==> combiner //_/login avec l'effet 3D
+   2.  https://codepen.io/ycw/pen/rNKywXG ==> jsp c'est juste stylé
+   3.  https://codepen.io/georgedoescode/pen/XWNmvro ==> supprimer la div .overlay -> fond d'écran ?
+   4.  https://codepen.io/evilpaper/pen/dyyZjLQ ==> détourner pour faire comme l'easter egg discord avec des touches de piano ?
+   5.  https://codepen.io/toshiya-marukubo/pen/gOKMvPZ ==> un espèce de page de flow avec des playlists aléatoires à la place des images ? Quand hover alors ça affiche le nom --> https://sanglioweb.vercel.app/events|relative
+   6.  https://codepen.io/simeydotme/pen/abYWJdX ==> récupérer le code pour le chargement des images + éventuellement l'animation 3D (--> prendre la flex + l'animation ==> liste des épisodes des séries ? en réduisant la taille en carré type 4:3 ou 16:9)
+   7.  https://codepen.io/TurkAysenur/pen/LYRKpWe ==> menu côté créateur ? avec sur la nav de gauche en haut chaques parties du site et bas pour des infos plus précises ?
+   8.  https://codepen.io/coopergoeke/pen/wvaYMbJ ==> bouton de validation d'ajout de fichier au site ?
+   9.  https://codepen.io/olivier3lanc/pen/eYrobmm ==> archi cute²
+   10. https://codepen.io/dilums/pen/ZEBowxX et https://codepen.io/havardob/pen/ExvwGBr ==> utiliser la section de droite pour la partie "plus précise" du 7.
+✔️ 11. https://codepen.io/katarzynamarta/pen/rNdbbVq ==> remplacer les boutons "shop now" de //_/games par un de ce genre ? faire gaffe la taille si ça peu se changer facilement
+   12. https://codepen.io/abdelrhmansaid/pen/OJRNOpQ ==> pour la div 1 du wrapper de la nav ("réseaux sociaux") ? --> changer la couleur et les centrer vert.
+   13. https://codepen.io/CameronFitzwilliam/pen/rmeMGr ==> stylé
+   14. https://codepen.io/Hyperplexed/pen/YzeOLYe ==> magic text
+   15. https://codepen.io/Chokcoco/pen/dypaobm et https://codepen.io/rgembalik/pen/OJygXJR
+   16. https://codepen.io/ash_creator/pen/GRGrEEL ==> robot
+   17. https://codepen.io/smcnally000/pen/qBKNoPz ==> background ?
+   18. Giga Chad, Sans (de Undertale) et Sylvain Duri
