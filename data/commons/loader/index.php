@@ -1,4 +1,5 @@
 <section>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <div class="dank-ass-loader">
         <div class="row">
             <div class="arrow up outer outer-18"></div>
