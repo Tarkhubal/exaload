@@ -1,7 +1,7 @@
-var myVar;
+var timeOut;
 
 function loader() {
-    myVar = setTimeout(showPage, 300);
+    timeOut = setTimeout(showPage, 1000);
 }
 
 function showPage() {
@@ -9,4 +9,6 @@ function showPage() {
     document.getElementById("page").style.display = "block";
 }
 
-myFunction()
+loader()
+
+console.log("Loader loaded")
