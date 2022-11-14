@@ -1,6 +1,6 @@
 var myVar;
 
-function myFunction() {
+function loader() {
     myVar = setTimeout(showPage, 300);
 }
 
